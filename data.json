@@ -441,6 +441,6 @@
   "type": "bookmark",
   "name": "GitHub (HomePage)",
   "url": "https://bralmada.github.io/hp/",
-  "icon": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\" />"
+  "icon": "https://github.com/twitter/twemoji/blob/v14.0.2/assets/svg/1f516.svg"
  }
 ]
