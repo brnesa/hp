@@ -1,75 +1,5 @@
 [
  {
-  "id": "f-tools",
-  "type": "folder",
-  "emoji": "🔨",
-  "name": "Tools",
-  "items": [
-   {
-    "id": "t1",
-    "name": "Canva",
-    "url": "https://www.canva.com/"
-   },
-   {
-    "id": "t2",
-    "name": "Cambridge",
-    "url": "https://dictionary.cambridge.org/"
-   },
-   {
-    "id": "t3",
-    "name": "CorteCloud",
-    "url": "https://marceneiro.cortecloud.com.br/#/plans"
-   },
-   {
-    "id": "t4",
-    "name": "Face Search",
-    "url": "https://pimeyes.com/pt"
-   },
-   {
-    "id": "t5",
-    "name": "HostGator",
-    "url": "https://financeiro.hostgator.com.br/index.php"
-   },
-   {
-    "id": "t7",
-    "name": "QR Code Generator",
-    "url": "https://genqrcode.com/"
-   },
-   {
-    "id": "t10",
-    "name": "Shodan",
-    "url": "https://www.shodan.io/"
-   },
-   {
-    "id": "t11",
-    "name": "Site Trust (RA)",
-    "url": "https://www.reclameaqui.com.br/detector-site-confiavel/"
-   },
-   {
-    "id": "t12",
-    "name": "Site Trust (SC)",
-    "url": "https://www.siteconfiavel.com.br/"
-   },
-   {
-    "id": "t14",
-    "name": "WGSN Trends",
-    "url": "http://www.wgsn.com/en/trading/fashion-buying"
-   },
-   {
-    "id": "id-1783434925970-yt0cu",
-    "type": "bookmark",
-    "name": "GitHub",
-    "url": "https://github.com/bralmada"
-   },
-   {
-    "id": "gemini",
-    "type": "bookmark",
-    "name": "AI Gemini",
-    "url": "https://gemini.google.com/app?hl=pt-BR"
-   }
-  ]
- },
- {
   "id": "f-billing",
   "type": "folder",
   "emoji": "",
@@ -433,6 +363,76 @@
     "id": "t9",
     "name": "Reels Downloader",
     "url": "https://sssinstagram.com/pt/reels-downloader"
+   }
+  ]
+ },
+ {
+  "id": "f-tools",
+  "type": "folder",
+  "emoji": "",
+  "name": "Tools",
+  "items": [
+   {
+    "id": "t1",
+    "name": "Canva",
+    "url": "https://www.canva.com/"
+   },
+   {
+    "id": "t2",
+    "name": "Cambridge",
+    "url": "https://dictionary.cambridge.org/"
+   },
+   {
+    "id": "t3",
+    "name": "CorteCloud",
+    "url": "https://marceneiro.cortecloud.com.br/#/plans"
+   },
+   {
+    "id": "t4",
+    "name": "Face Search",
+    "url": "https://pimeyes.com/pt"
+   },
+   {
+    "id": "t5",
+    "name": "HostGator",
+    "url": "https://financeiro.hostgator.com.br/index.php"
+   },
+   {
+    "id": "t7",
+    "name": "QR Code Generator",
+    "url": "https://genqrcode.com/"
+   },
+   {
+    "id": "t10",
+    "name": "Shodan",
+    "url": "https://www.shodan.io/"
+   },
+   {
+    "id": "t11",
+    "name": "Site Trust (RA)",
+    "url": "https://www.reclameaqui.com.br/detector-site-confiavel/"
+   },
+   {
+    "id": "t12",
+    "name": "Site Trust (SC)",
+    "url": "https://www.siteconfiavel.com.br/"
+   },
+   {
+    "id": "t14",
+    "name": "WGSN Trends",
+    "url": "http://www.wgsn.com/en/trading/fashion-buying"
+   },
+   {
+    "id": "id-1783434925970-yt0cu",
+    "type": "bookmark",
+    "name": "GitHub",
+    "url": "https://github.com/bralmada"
+   },
+   {
+    "id": "gemini",
+    "type": "bookmark",
+    "name": "AI Gemini",
+    "url": "https://gemini.google.com/app?hl=pt-BR"
    }
   ]
  }
