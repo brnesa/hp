@@ -440,6 +440,7 @@
   "id": "id-1783444870815-o9ydr",
   "type": "bookmark",
   "name": "GitHub (HomePage)",
-  "url": "https://bralmada.github.io/hp/"
+  "url": "https://bralmada.github.io/hp/",
+  "icon": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\" />"
  }
 ]
