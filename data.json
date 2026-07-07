@@ -1,187 +1,5 @@
 [
  {
-  "id": "f-rewards",
-  "type": "folder",
-  "emoji": "💰",
-  "name": "Rewards",
-  "items": [
-   {
-    "id": "f-esfera",
-    "type": "folder",
-    "emoji": "🟣",
-    "name": "Esfera",
-    "items": [
-     {
-      "id": "e1",
-      "name": "Casas Bahia",
-      "url": "https://www.esfera.com.vc/p/casasbahia/e000100177"
-     },
-     {
-      "id": "e2",
-      "name": "Extra",
-      "url": "https://www.esfera.com.vc/p/extracom/e000100178"
-     },
-     {
-      "id": "e3",
-      "name": "Fast Shop",
-      "url": "https://www.esfera.com.vc/p/fastshop/e000100585"
-     },
-     {
-      "id": "e4",
-      "name": "Kabum",
-      "url": "https://www.esfera.com.vc/p/kabum/e000100716"
-     },
-     {
-      "id": "e5",
-      "name": "Magalu",
-      "url": "https://www.esfera.com.vc/p/magalu/e000100100"
-     },
-     {
-      "id": "e6",
-      "name": "Ponto",
-      "url": "https://www.esfera.com.vc/p/ponto/e000100179"
-     },
-     {
-      "id": "e7",
-      "name": "Shopee",
-      "url": "https://www.esfera.com.vc/p/shopee/e000100697"
-     },
-     {
-      "id": "e8",
-      "name": "WebContinental",
-      "url": "https://www.esfera.com.vc/p/webcontinental/e000100582"
-     }
-    ]
-   },
-   {
-    "id": "f-livelo",
-    "type": "folder",
-    "emoji": "🩷",
-    "name": "Livelo",
-    "items": [
-     {
-      "id": "l1",
-      "name": "AliExpress",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/aliexpress/ALB"
-     },
-     {
-      "id": "l2",
-      "name": "Casas Bahia",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/casas-bahia/CSB"
-     },
-     {
-      "id": "l3",
-      "name": "Extra",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
-     },
-     {
-      "id": "l4",
-      "name": "Fast Shop",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
-     },
-     {
-      "id": "l5",
-      "name": "Kabum",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
-     },
-     {
-      "id": "l6",
-      "name": "Mercado Livre",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/mercadolivre/MCL"
-     },
-     {
-      "id": "l7",
-      "name": "Ponto Frio",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/pontofrio/PTF"
-     },
-     {
-      "id": "l8",
-      "name": "Shopee",
-      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/shopee/PEE"
-     }
-    ]
-   },
-   {
-    "id": "f-inter",
-    "type": "folder",
-    "emoji": "🟠",
-    "name": "Inter Shop",
-    "items": [
-     {
-      "id": "i1",
-      "name": "AliExpress",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/aliexpress"
-     },
-     {
-      "id": "i2",
-      "name": "Casas Bahia",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/casas-bahia"
-     },
-     {
-      "id": "i3",
-      "name": "Extra",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/extra"
-     },
-     {
-      "id": "i4",
-      "name": "FastShop",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/fastshop"
-     },
-     {
-      "id": "i5",
-      "name": "Kabum",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/kabum"
-     },
-     {
-      "id": "i6",
-      "name": "Magalu",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/magazine-luiza"
-     },
-     {
-      "id": "i7",
-      "name": "Ponto",
-      "url": "https://shopping.inter.co/lojas-shopping/ponto"
-     },
-     {
-      "id": "i8",
-      "name": "Shopee",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/shopee"
-     },
-     {
-      "id": "i9",
-      "name": "WebContinental",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/webcontinental"
-     }
-    ]
-   },
-   {
-    "id": "r1",
-    "name": "Esfera (Hub)",
-    "url": "https://www.esfera.com.vc/junte-pontos/junte-pontos/esf02163"
-   },
-   {
-    "id": "r2",
-    "name": "Livelo (Hub)",
-    "url": "https://www.livelo.com.br/juntar-pontos/todos-os-parceiros"
-   },
-   {
-    "id": "r3",
-    "name": "Smiles (Hub)",
-    "url": "https://shoppingsmiles.com.br/home"
-   },
-   {
-    "id": "r4",
-    "name": "Toca da Pizza",
-    "url": "https://pedido.anota.ai/"
-   },
-   {
-    "id": "r5",
-    "name": "Visa Benefits",
-    "url": "https://visabenefitslac.axa-assistance.us/"
-   }
-  ]
- },
- {
   "id": "f-social",
   "type": "folder",
   "emoji": "🛜",
@@ -433,6 +251,188 @@
     "id": "p6",
     "name": "Pacheco",
     "url": "https://www.drogariaspacheco.com.br/"
+   }
+  ]
+ },
+ {
+  "id": "f-rewards",
+  "type": "folder",
+  "emoji": "",
+  "name": "Rewards",
+  "items": [
+   {
+    "id": "f-esfera",
+    "type": "folder",
+    "emoji": "🟣",
+    "name": "Esfera",
+    "items": [
+     {
+      "id": "e1",
+      "name": "Casas Bahia",
+      "url": "https://www.esfera.com.vc/p/casasbahia/e000100177"
+     },
+     {
+      "id": "e2",
+      "name": "Extra",
+      "url": "https://www.esfera.com.vc/p/extracom/e000100178"
+     },
+     {
+      "id": "e3",
+      "name": "Fast Shop",
+      "url": "https://www.esfera.com.vc/p/fastshop/e000100585"
+     },
+     {
+      "id": "e4",
+      "name": "Kabum",
+      "url": "https://www.esfera.com.vc/p/kabum/e000100716"
+     },
+     {
+      "id": "e5",
+      "name": "Magalu",
+      "url": "https://www.esfera.com.vc/p/magalu/e000100100"
+     },
+     {
+      "id": "e6",
+      "name": "Ponto",
+      "url": "https://www.esfera.com.vc/p/ponto/e000100179"
+     },
+     {
+      "id": "e7",
+      "name": "Shopee",
+      "url": "https://www.esfera.com.vc/p/shopee/e000100697"
+     },
+     {
+      "id": "e8",
+      "name": "WebContinental",
+      "url": "https://www.esfera.com.vc/p/webcontinental/e000100582"
+     }
+    ]
+   },
+   {
+    "id": "f-livelo",
+    "type": "folder",
+    "emoji": "🩷",
+    "name": "Livelo",
+    "items": [
+     {
+      "id": "l1",
+      "name": "AliExpress",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/aliexpress/ALB"
+     },
+     {
+      "id": "l2",
+      "name": "Casas Bahia",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/casas-bahia/CSB"
+     },
+     {
+      "id": "l3",
+      "name": "Extra",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
+     },
+     {
+      "id": "l4",
+      "name": "Fast Shop",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
+     },
+     {
+      "id": "l5",
+      "name": "Kabum",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
+     },
+     {
+      "id": "l6",
+      "name": "Mercado Livre",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/mercadolivre/MCL"
+     },
+     {
+      "id": "l7",
+      "name": "Ponto Frio",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/pontofrio/PTF"
+     },
+     {
+      "id": "l8",
+      "name": "Shopee",
+      "url": "https://www.livelo.com.br/juntar-pontos/parceiros/shopee/PEE"
+     }
+    ]
+   },
+   {
+    "id": "f-inter",
+    "type": "folder",
+    "emoji": "🟠",
+    "name": "Inter Shop",
+    "items": [
+     {
+      "id": "i1",
+      "name": "AliExpress",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/aliexpress"
+     },
+     {
+      "id": "i2",
+      "name": "Casas Bahia",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/casas-bahia"
+     },
+     {
+      "id": "i3",
+      "name": "Extra",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/extra"
+     },
+     {
+      "id": "i4",
+      "name": "FastShop",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/fastshop"
+     },
+     {
+      "id": "i5",
+      "name": "Kabum",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/kabum"
+     },
+     {
+      "id": "i6",
+      "name": "Magalu",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/magazine-luiza"
+     },
+     {
+      "id": "i7",
+      "name": "Ponto",
+      "url": "https://shopping.inter.co/lojas-shopping/ponto"
+     },
+     {
+      "id": "i8",
+      "name": "Shopee",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/shopee"
+     },
+     {
+      "id": "i9",
+      "name": "WebContinental",
+      "url": "https://shopping.inter.co/site-parceiro/lojas/webcontinental"
+     }
+    ]
+   },
+   {
+    "id": "r1",
+    "name": "Esfera (Hub)",
+    "url": "https://www.esfera.com.vc/junte-pontos/junte-pontos/esf02163"
+   },
+   {
+    "id": "r2",
+    "name": "Livelo (Hub)",
+    "url": "https://www.livelo.com.br/juntar-pontos/todos-os-parceiros"
+   },
+   {
+    "id": "r3",
+    "name": "Smiles (Hub)",
+    "url": "https://shoppingsmiles.com.br/home"
+   },
+   {
+    "id": "r4",
+    "name": "Toca da Pizza",
+    "url": "https://pedido.anota.ai/"
+   },
+   {
+    "id": "r5",
+    "name": "Visa Benefits",
+    "url": "https://visabenefitslac.axa-assistance.us/"
    }
   ]
  }
