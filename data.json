@@ -1,43 +1,5 @@
 [
  {
-  "id": "f-pharma",
-  "type": "folder",
-  "emoji": "",
-  "name": "Pharma",
-  "items": [
-   {
-    "id": "p1",
-    "name": "Araújo",
-    "url": "https://www.araujo.com.br/"
-   },
-   {
-    "id": "p2",
-    "name": "CliqueFarma",
-    "url": "https://www.cliquefarma.com.br/"
-   },
-   {
-    "id": "p3",
-    "name": "Drogasil",
-    "url": "https://www.drogasil.com.br/"
-   },
-   {
-    "id": "p4",
-    "name": "Indiana",
-    "url": "https://www.farmaciaindiana.com.br/"
-   },
-   {
-    "id": "p5",
-    "name": "Minas Mais",
-    "url": "https://www.drogariasminasmais.com.br/"
-   },
-   {
-    "id": "p6",
-    "name": "Pacheco",
-    "url": "https://www.drogariaspacheco.com.br/"
-   }
-  ]
- },
- {
   "id": "f-rewards",
   "type": "folder",
   "emoji": "",
@@ -447,6 +409,44 @@
     "name": "SINAL — Barbacena City Hall",
     "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
+   }
+  ]
+ },
+ {
+  "id": "f-pharma",
+  "type": "folder",
+  "emoji": "💊",
+  "name": "Pharma",
+  "items": [
+   {
+    "id": "p1",
+    "name": "Araújo",
+    "url": "https://www.araujo.com.br/"
+   },
+   {
+    "id": "p2",
+    "name": "CliqueFarma",
+    "url": "https://www.cliquefarma.com.br/"
+   },
+   {
+    "id": "p3",
+    "name": "Drogasil",
+    "url": "https://www.drogasil.com.br/"
+   },
+   {
+    "id": "p4",
+    "name": "Indiana",
+    "url": "https://www.farmaciaindiana.com.br/"
+   },
+   {
+    "id": "p5",
+    "name": "Minas Mais",
+    "url": "https://www.drogariasminasmais.com.br/"
+   },
+   {
+    "id": "p6",
+    "name": "Pacheco",
+    "url": "https://www.drogariaspacheco.com.br/"
    }
   ]
  }
