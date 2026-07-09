@@ -11,11 +11,6 @@
     "url": "https://sistema.appbarber.com.br/login.php"
    },
    {
-    "id": "c2",
-    "name": "Barcode Lookup",
-    "url": "https://cosmos.bluesoft.com.br/"
-   },
-   {
     "id": "c3",
     "name": "CBS Website",
     "url": "https://www.barbeariacantarino.com/"
@@ -34,6 +29,12 @@
     "id": "c6",
     "name": "Yelsew",
     "url": "https://yelsew.com.br/"
+   },
+   {
+    "id": "c2",
+    "name": "Barcode Lookup",
+    "url": "https://cosmos.bluesoft.com.br/",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=bluesoft.com.br"
    }
   ]
  },
