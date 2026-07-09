@@ -440,6 +440,7 @@
   "id": "id-1783568348443-ly4si",
   "type": "bookmark",
   "name": "Proton Mail",
-  "url": "https://mail.proton.me/u/1/inbox"
+  "url": "https://mail.proton.me/u/1/inbox",
+  "icon": "https://mail.proton.me/u/1/inbox"
  }
 ]
