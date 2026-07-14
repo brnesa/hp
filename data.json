@@ -132,6 +132,12 @@
     "name": "SINAL — Barbacena City Hall",
     "url": "https://barbacena.mg.sinal.quasar.srv.br/alvara/login.xhtml",
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=barbacena.mg.gov.br"
+   },
+   {
+    "id": "id-1783626801098-spo5u",
+    "type": "bookmark",
+    "name": "Escola Virtual Gov",
+    "url": "https://www.escolavirtual.gov.br/"
    }
   ]
  },
@@ -414,12 +420,6 @@
     "id": "t3",
     "name": "CorteCloud",
     "url": "https://marceneiro.cortecloud.com.br/#/plans"
-   },
-   {
-    "id": "id-1783626801098-spo5u",
-    "type": "bookmark",
-    "name": "Escola Virtual Gov",
-    "url": "https://www.escolavirtual.gov.br/"
    },
    {
     "id": "t4",
