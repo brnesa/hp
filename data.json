@@ -316,32 +316,6 @@
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=esfera.com.vc"
    },
    {
-    "id": "r1",
-    "name": "Esfera HUB",
-    "url": "https://www.esfera.com.vc/junte-pontos/junte-pontos/esf02163"
-   },
-   {
-    "id": "r2",
-    "name": "Livelo HUB",
-    "url": "https://www.livelo.com.br/juntar-pontos/todos-os-parceiros"
-   },
-   {
-    "id": "r3",
-    "name": "Smiles HUB",
-    "url": "https://shoppingsmiles.com.br/home"
-   },
-   {
-    "id": "r4",
-    "name": "Toca da Pizza",
-    "url": "https://pedido.anota.ai/loja/toca-da-pizza-delivery",
-    "icon": "https://www.google.com/s2/favicons?sz=64&domain=anota.ai"
-   },
-   {
-    "id": "r5",
-    "name": "Visa Benefits",
-    "url": "https://visabenefitslac.axa-assistance.us/"
-   },
-   {
     "id": "f-livelo",
     "type": "folder",
     "emoji": "🌽",
@@ -389,6 +363,32 @@
      }
     ],
     "icon": "https://www.google.com/s2/favicons?sz=64&domain=Livelo.com.br"
+   },
+   {
+    "id": "r1",
+    "name": "Esfera HUB",
+    "url": "https://www.esfera.com.vc/junte-pontos/junte-pontos/esf02163"
+   },
+   {
+    "id": "r2",
+    "name": "Livelo HUB",
+    "url": "https://www.livelo.com.br/juntar-pontos/todos-os-parceiros"
+   },
+   {
+    "id": "r3",
+    "name": "Smiles HUB",
+    "url": "https://shoppingsmiles.com.br/home"
+   },
+   {
+    "id": "r4",
+    "name": "Toca da Pizza",
+    "url": "https://pedido.anota.ai/loja/toca-da-pizza-delivery",
+    "icon": "https://www.google.com/s2/favicons?sz=64&domain=anota.ai"
+   },
+   {
+    "id": "r5",
+    "name": "Visa Benefits",
+    "url": "https://visabenefitslac.axa-assistance.us/"
    }
   ]
  },
