@@ -153,11 +153,6 @@
     ]
    },
    {
-    "id": "t14",
-    "name": "WGSN Trends",
-    "url": "http://www.wgsn.com/en/trading/fashion-buying"
-   },
-   {
     "id": "t5",
     "name": "HostGator",
     "url": "https://financeiro.hostgator.com.br/index.php"
@@ -166,6 +161,11 @@
     "id": "t7",
     "name": "QR Code Generator",
     "url": "https://genqrcode.com/"
+   },
+   {
+    "id": "t14",
+    "name": "WGSN Trends",
+    "url": "http://www.wgsn.com/en/trading/fashion-buying"
    }
   ]
  },
