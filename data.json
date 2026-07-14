@@ -445,12 +445,6 @@
   "url": "https://gemini.google.com/app?hl=pt-BR"
  },
  {
-  "id": "id-1783434925970-yt0cu",
-  "type": "bookmark",
-  "name": "GitHub (hub)",
-  "url": "https://github.com"
- },
- {
   "id": "id-1783970466810-8cs6q",
   "type": "bookmark",
   "name": "MetaAi",
@@ -462,5 +456,11 @@
   "name": "Proton Mail",
   "url": "https://mail.proton.me/u/1/inbox",
   "icon": "https://www.google.com/s2/favicons?sz=64&domain=proton.me"
+ },
+ {
+  "id": "id-1783434925970-yt0cu",
+  "type": "bookmark",
+  "name": "GitHub",
+  "url": "https://github.com"
  }
 ]
