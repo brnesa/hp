@@ -234,59 +234,6 @@
     ]
    },
    {
-    "id": "f-inter",
-    "type": "folder",
-    "emoji": "",
-    "name": "Inter Shop",
-    "items": [
-     {
-      "id": "i1",
-      "name": "AliExpress",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/aliexpress"
-     },
-     {
-      "id": "i2",
-      "name": "Casas Bahia",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/casas-bahia"
-     },
-     {
-      "id": "i3",
-      "name": "Extra",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/extra"
-     },
-     {
-      "id": "i4",
-      "name": "FastShop",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/fastshop"
-     },
-     {
-      "id": "i5",
-      "name": "Kabum",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/kabum"
-     },
-     {
-      "id": "i6",
-      "name": "Magalu",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/magazine-luiza"
-     },
-     {
-      "id": "i7",
-      "name": "Ponto",
-      "url": "https://shopping.inter.co/lojas-shopping/ponto"
-     },
-     {
-      "id": "i8",
-      "name": "Shopee",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/shopee"
-     },
-     {
-      "id": "i9",
-      "name": "WebContinental",
-      "url": "https://shopping.inter.co/site-parceiro/lojas/webcontinental"
-     }
-    ]
-   },
-   {
     "id": "f-livelo",
     "type": "folder",
     "emoji": "",
