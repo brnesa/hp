@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>⭐️B.A</title>
+<title>Preferidos</title>
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="⭐️B.A">
+<meta name="apple-mobile-web-app-title" content="Preferidos">
 <meta name="theme-color" content="#1b1b1d">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -411,7 +411,7 @@ h1.page-title { font-size: 27px; font-weight: 800; letter-spacing: -0.4px; }
 }
 .toolbar .edit-btn { padding: 6px 12px; }
 
-/* ── Rodapé (linha abaixo dos ⭐️B.A) ── */
+/* ── Rodapé (linha abaixo dos Preferidos) ── */
 .footer-bar {
   max-width: 680px; margin: 20px auto 0; padding: 0 16px;
   display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;
@@ -492,7 +492,7 @@ h1.page-title { font-size: 27px; font-weight: 800; letter-spacing: -0.4px; }
 
 <script>
 const sv = id => `<svg class="icon" aria-hidden="true"><use href="#${id}"/></svg>`;
-// ─── Dados iniciais — espelho de ⭐️B.A.html (última versão) ──────────────
+// ─── Dados iniciais — espelho de Preferidos.html (última versão) ──────────────
 const INITIAL_DATA = [
   { id:'f-billing', type:'folder', emoji:'🧾', name:'Billing', items:[
     {id:'b1', name:'CEMIG (Energy)', url:'https://atende.cemig.com.br/Login'},
@@ -592,7 +592,7 @@ const INITIAL_DATA = [
 ];
 
 // ─── Persistência (localStorage; requer navegador real, ex. hospedado) ───────
-const DATA_KEY = '⭐️B.A-v2';
+const DATA_KEY = 'Preferidos-v2';
 const FAV_KEY  = 'fav-cache-v1';
 let memStore = {};
 function lsGet(k){ try { return localStorage.getItem(k); } catch { return memStore[k] || null; } }
@@ -613,7 +613,7 @@ function ghConfigured(){ return !!(ghOwner() && ghRepo()); }
 function askConfig(){
   const o = prompt('Usuário do GitHub (ex: almada123):', ghOwner());
   if (o && o.trim()) lsSet('gh-owner', o.trim());
-  const r = prompt('Nome do repositório (ex: ⭐️B.A):', ghRepo());
+  const r = prompt('Nome do repositório (ex: Preferidos):', ghRepo());
   if (r && r.trim()) lsSet('gh-repo', r.trim());
   return ghConfigured();
 }
@@ -667,7 +667,7 @@ async function ghPush(retry = true){
   syncState = 'saving'; updateSyncUI();
   try {
     const body = {
-      message: 'Atualiza ⭐️B.A — ' + new Date().toISOString(),
+      message: 'Atualiza Preferidos — ' + new Date().toISOString(),
       content: b64encode(JSON.stringify(items, null, 1)),
       branch: GH_BRANCH,
     };
@@ -760,13 +760,13 @@ function cycleTheme(){
   showToast('Tema: ' + ({ auto: 'Automático', light: 'Claro', dark: 'Escuro' })[next]);
 }
 
-// ─── Nome da página (padrão: ⭐️B.A) ──────────────────────────────────────
+// ─── Nome da página (padrão: Preferidos) ──────────────────────────────────────
 const TITLE_KEY = 'page-title';
-function pageTitle(){ return lsGet(TITLE_KEY) || '⭐️B.A'; }
+function pageTitle(){ return lsGet(TITLE_KEY) || 'Preferidos'; }
 function renamePage(){
   const n = prompt('Nome da página:', pageTitle());
   if (n === null) return;
-  lsSet(TITLE_KEY, n.trim() || '⭐️B.A');
+  lsSet(TITLE_KEY, n.trim() || 'Preferidos');
   document.title = pageTitle();
   render(); showToast('Página renomeada');
 }
@@ -992,7 +992,7 @@ function exportHtml(){
     toNetscape(items, 1) + '</DL><p>\n';
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([html], { type: 'text/html' }));
-  a.download = new Date().toISOString().slice(0,10) + '-⭐️B.A' + '.html';
+  a.download = new Date().toISOString().slice(0,10) + '-Preferidos' + '.html';
   document.body.appendChild(a); a.click(); a.remove();
   lsSet('last-backup', String(Date.now()));
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
@@ -1267,7 +1267,7 @@ function showStats(){
   ov.id = 'dup-overlay'; ov.className = 'modal-overlay';
   ov.innerHTML = `<div class="modal-box">
     <div class="modal-title">${sv('i-chart')} Estatísticas</div>
-    <div class="stat-row"><span>⭐️B.A</span><span>${favs}</span></div>
+    <div class="stat-row"><span>Preferidos</span><span>${favs}</span></div>
     <div class="stat-row"><span>Pastas</span><span>${folders}</span></div>
     <div class="stat-row"><span>Último Export .html</span><span>${fmt('last-backup')}</span></div>
     <div class="stat-row"><span>Última sincronização</span><span>${fmt('last-sync')}</span></div>
@@ -1359,7 +1359,7 @@ function ctxMenuAgain(x, y, it){               // reabre o menu principal do ite
 }
 function ctxForBackground(x, y){
   openCtx(x, y, [
-    { icon:sv('i-plus'), label:'⭐️B.A', action: () => { modal = { mode:'add-bookmark' }; render(); } },
+    { icon:sv('i-plus'), label:'Preferidos', action: () => { modal = { mode:'add-bookmark' }; render(); } },
     { icon:sv('i-plus'), label:'Pasta',    action: () => { modal = { mode:'add-folder' }; render(); } },
     { sep: true },
     { icon:sv('i-az'), label:'A→Z', action: doSortAZ },
@@ -1605,10 +1605,10 @@ function renderModal() {
 }
 
 function exportJson(){
-  const payload = { app: '⭐️B.A', version: 2, exportedAt: new Date().toISOString(), items };
+  const payload = { app: 'Preferidos', version: 2, exportedAt: new Date().toISOString(), items };
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' }));
-  a.download = new Date().toISOString().slice(0,10) + '-backup-⭐️B.A' + '.json';
+  a.download = new Date().toISOString().slice(0,10) + '-backup-Preferidos' + '.json';
   document.body.appendChild(a); a.click(); a.remove();
   lsSet('last-backup', String(Date.now()));
   setTimeout(() => URL.revokeObjectURL(a.href), 2000);
@@ -1722,7 +1722,7 @@ function attachEvents() {
         const data = Array.isArray(parsed) ? parsed : parsed.items;   // aceita backup ou array cru
         if (!Array.isArray(data) || !data.every(i => i && i.id && i.name !== undefined))
           throw new Error('estrutura inválida');
-        if (!confirm('Substituir TODOS os ⭐️B.A atuais pelo backup (' + data.length + ' itens na raiz)?')) return;
+        if (!confirm('Substituir TODOS os Preferidos atuais pelo backup (' + data.length + ' itens na raiz)?')) return;
         items = data; saveData(); render();
       } catch (err) {
         alert('Arquivo de backup inválido: ' + err.message);
