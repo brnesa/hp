@@ -274,57 +274,9 @@
    "name": "Shop",
    "items": [
     {
-     "id": "f-esfera",
-     "type": "folder",
-     "emoji": "",
-     "name": "Esfera",
-     "items": [
-      {
-       "id": "e1",
-       "name": "Casas Bahia",
-       "url": "https://www.esfera.com.vc/p/casasbahia/e000100177"
-      },
-      {
-       "id": "e2",
-       "name": "Extra",
-       "url": "https://www.esfera.com.vc/p/extracom/e000100178"
-      },
-      {
-       "id": "e3",
-       "name": "Fast Shop",
-       "url": "https://www.esfera.com.vc/p/fastshop/e000100585"
-      },
-      {
-       "id": "e4",
-       "name": "Kabum",
-       "url": "https://www.esfera.com.vc/p/kabum/e000100716"
-      },
-      {
-       "id": "e5",
-       "name": "Magalu",
-       "url": "https://www.esfera.com.vc/p/magalu/e000100100"
-      },
-      {
-       "id": "e6",
-       "name": "Ponto",
-       "url": "https://www.esfera.com.vc/p/ponto/e000100179"
-      },
-      {
-       "id": "e7",
-       "name": "Shopee",
-       "url": "https://www.esfera.com.vc/p/shopee/e000100697"
-      },
-      {
-       "id": "e8",
-       "name": "WebContinental",
-       "url": "https://www.esfera.com.vc/p/webcontinental/e000100582"
-      }
-     ]
-    },
-    {
      "id": "f-livelo",
      "type": "folder",
-     "emoji": "",
+     "emoji": "🩷",
      "name": "Livelo",
      "items": [
       {
@@ -394,6 +346,55 @@
      "id": "r5",
      "name": "Visa Benefits",
      "url": "https://visabenefitslac.axa-assistance.us/"
+    },
+    {
+     "id": "f-esfera",
+     "type": "folder",
+     "emoji": "",
+     "name": "Esfera",
+     "items": [
+      {
+       "id": "e1",
+       "name": "Casas Bahia",
+       "url": "https://www.esfera.com.vc/p/casasbahia/e000100177"
+      },
+      {
+       "id": "e2",
+       "name": "Extra",
+       "url": "https://www.esfera.com.vc/p/extracom/e000100178"
+      },
+      {
+       "id": "e3",
+       "name": "Fast Shop",
+       "url": "https://www.esfera.com.vc/p/fastshop/e000100585"
+      },
+      {
+       "id": "e4",
+       "name": "Kabum",
+       "url": "https://www.esfera.com.vc/p/kabum/e000100716"
+      },
+      {
+       "id": "e5",
+       "name": "Magalu",
+       "url": "https://www.esfera.com.vc/p/magalu/e000100100"
+      },
+      {
+       "id": "e6",
+       "name": "Ponto",
+       "url": "https://www.esfera.com.vc/p/ponto/e000100179"
+      },
+      {
+       "id": "e7",
+       "name": "Shopee",
+       "url": "https://www.esfera.com.vc/p/shopee/e000100697"
+      },
+      {
+       "id": "e8",
+       "name": "WebContinental",
+       "url": "https://www.esfera.com.vc/p/webcontinental/e000100582"
+      }
+     ],
+     "icon": "https://www.google.com/s2/favicons?sz=64&domain=esfera.com.vc"
     }
    ]
   },
@@ -464,6 +465,13 @@
    "type": "bookmark",
    "name": "Brand‐Name to Generic",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493853/?utm_source=chatgpt.com"
+  },
+  {
+   "id": "id-1784636672439-dg5jjwqw",
+   "type": "folder",
+   "emoji": "",
+   "name": "Teste",
+   "items": []
   }
  ]
 }
